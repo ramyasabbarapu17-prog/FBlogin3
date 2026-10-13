@@ -1,0 +1,7 @@
+Feature:login page
+
+scenario:valid user name and password login test case
+Given user is on login page
+When user enters valid username"test1"
+And user enters valid password"Ramya123"
+And clicks on login button
